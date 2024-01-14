@@ -40,6 +40,9 @@
 - usePopularMoview custome hook 
 
 ## Lecture 3
-
+- GPT search feature
+- GPT search bar
+- (*)Multi-language Feature in our App
+- Integrate GPT APIs 
 
 # Features
