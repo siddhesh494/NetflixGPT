@@ -30,3 +30,15 @@ export const SUPPORTED_LANGUAGE = [
     name: "Spanish"
   },
 ]
+export const OPENAI_KEY = "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"
+
+
+export const DUMMY_GPT_RESPONSE = [
+  {
+    finish_reason: "stop",
+    index: 0,
+    message: {
+      role: 'assistant', content: 'Andaz Apna Apna, Hera Pheri, Amar Akbar Anthony, Jaane Bhi Do Yaaro, Padosan'
+    }
+  }
+]

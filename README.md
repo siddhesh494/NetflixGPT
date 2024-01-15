@@ -44,5 +44,6 @@
 - GPT search bar
 - (*)Multi-language Feature in our App
 - Integrate GPT APIs 
+- created component for GPT page
 
 # Features
