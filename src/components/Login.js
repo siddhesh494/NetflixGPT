@@ -90,16 +90,17 @@ const Login = () => {
     <div>
       <Header />
       <div
-        className='absolute'
+        className='absolute '
       >
         <img
+        className='h-screen object-cover md:object-none md:h-auto'
           src={BG_URL}
           alt={"logo"}
         />
       </div>
       
       <form 
-        className='absolute p-12 bg-black w-3/12 my-36 mx-auto 
+        className='absolute p-12 bg-black w-full md:w-3/12 my-36 mx-auto 
         right-0 left-0 text-white rounded-lg bg-opacity-80'
         onSubmit={(e) => e.preventDefault()}
       >

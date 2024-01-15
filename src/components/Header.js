@@ -67,16 +67,16 @@ const Header = () => {
   return (
     <div
       className='absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10
-      flex justify-between
+      flex flex-col md:flex-row justify-between
       '
     >
       <img
-        className='w-48'
+        className='w-48 mx-auto md:mx-0'
         src={LOGO}
         alt={"logo"}
       />
 
-      {user && <div className='flex p-2'>
+      {user && <div className='flex p-2 mx-auto md:mx-0'>
         {showGptSearch && <select
           className='p-2 bg-gray-900 text-white m-2'
           onChange={handleLanguageChange}
@@ -96,7 +96,7 @@ const Header = () => {
         </button>
         <img
           src={user?.photoURL}
-          className='w-12 h-12 '
+          className='w-12 h-12 hidden md:block'
           alt='userIcon'
         />
         <button

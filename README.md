@@ -43,7 +43,12 @@
 - GPT search feature
 - GPT search bar
 - (*)Multi-language Feature in our App
-- Integrate GPT APIs 
+- Integrate GPT Search APIs 
+- Fetch GPT movie suggestions from TMDB
+- Created GPT slice and added data
 - created component for GPT page
+- Memoization
+- adding .env file
+- Made our site responsive
 
 # Features
