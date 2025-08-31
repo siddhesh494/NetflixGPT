@@ -68,7 +68,7 @@ REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 npm start
 ```
 
-# Project Stureture
+## Project Structure
 ```bash
 /src
   /components
