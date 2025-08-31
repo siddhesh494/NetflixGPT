@@ -66,3 +66,25 @@ REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 
 # Run the development server
 npm start
+```
+
+# Project Stureture
+```bash
+/src
+  /components
+  /features
+    userSlice.js
+    movieSlice.js
+    gptSlice.js
+  /hooks
+    useNowPlaying.js
+    usePopularMovies.js
+  App.js
+  index.js
+/firebase.json
+/tailwind.config.js
+
+```
+
+
+ 
